@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ddd;
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* display: inline-block; */
+}
+
+.logo {
+  text-decoration: none;
+  margin: 1.75rem;
+  padding: 0.5rem;
+  font-size: 40px;
+  color: black;
+}
+
+.logo .menu {
+  align-self: flex-end;
+  display: flex;
+}
+
+.header .menu a {
+  color: #2f2f2f;
+  margin-right: 30px;
+  /* justify-content: space-between; */
+  /* background-color: blue; */
+  /* width: 180px; */
+  /* font-size: 20px; */
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header a.logo span.dot {
+  color: #f16821;
+  margin: 0;
+  padding: 0;
+}
+
+.header .menu a.active {
+  color: #f38044;
+}
+
+section.bg {
+  background: url(images/hero_2.jpg);
+  background-size: cover;
+  /* background-position: ce  nter; */
+  height: 100vh;
+  position: relative;
+}
+
+section.bg .bg-content {
+  position: absolute;
+  text-align: left;
+  left: 20%;
+  top: 35%;
+  width: 60%;
+}
+
+section.bg .bg-content h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+section.bg .bg-content p {
+  color: white;
+  line-height: 170%;
+}
+
+section.bg .bg-content button {
+  color: white;
+  background-color: transparent;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border: 2px solid white;
+}
+
+section.bg .bg-content button.first:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+section.bg .bg-content button.second {
+  background-color: #fff;
+  color: black;
+}
+
+section.bg .bg-content button.second:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.main {
+  max-width: 1440px;
+  margin: 5vh auto;
+  /* background: #333; */
+  font-size: 0;
+}
+
+.main p.description {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 30px 50px 30px;
+}
+
+.main div.content {
+  display: inline-block;
+  width: 33.33%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.main div.image img:hover {
+  /* background-color: royalblue; */
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 0;
+  margin: 0 auto;
+  text-align: center;
+  transition-duration: 3s;
+  border: 2px solid orange;
+  /* box-shadow: 0 0 0 6px transparent, 0 0 0 12px orange; */
+}
+
+.main div.image {
+  /* background-color: royalblue; */
+  /*  margin: 20px 30px;
+  text-align: center; */
+}
+
+.main h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main section.offer {
+  width: 100%;
+  background: url(images/hero_2.jpg);
+  background-size: cover;
+  /* background-position: ce  nter; */
+  height: 50vh;
+  /* position: relative; */
+  background-attachment: fixed;
+  margin-top: 80px;
+}
+
+.offer-box {
+  color: white;
+  text-align: center;
+  /* margin-top: 30px; */
+
+  margin: 0 auto;
+}
+
+.offer-box input,
+button {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+}
+
+.footer {
+  height: 100vh;
+}
